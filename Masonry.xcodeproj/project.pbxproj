@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		189424821AFDE95E0013F9CC /* MMPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 189424811AFDE95E0013F9CC /* MMPlaceHolder.m */; };
+		189424851AFDEB780013F9CC /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 189424841AFDEB780013F9CC /* UIView+Category.m */; };
 		18DCB5FB1AFB0492003FDBF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DCB5FA1AFB0492003FDBF8 /* main.m */; };
 		18DCB5FE1AFB0492003FDBF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DCB5FD1AFB0492003FDBF8 /* AppDelegate.m */; };
 		18DCB6011AFB0492003FDBF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DCB6001AFB0492003FDBF8 /* ViewController.m */; };
@@ -37,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		189424801AFDE95E0013F9CC /* MMPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPlaceHolder.h; sourceTree = "<group>"; };
+		189424811AFDE95E0013F9CC /* MMPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPlaceHolder.m; sourceTree = "<group>"; };
+		189424831AFDEB780013F9CC /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		189424841AFDEB780013F9CC /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
 		18DCB5F51AFB0492003FDBF8 /* Masonry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Masonry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DCB5F91AFB0492003FDBF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18DCB5FA1AFB0492003FDBF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -119,6 +125,10 @@
 				18DCB5FD1AFB0492003FDBF8 /* AppDelegate.m */,
 				18DCB5FF1AFB0492003FDBF8 /* ViewController.h */,
 				18DCB6001AFB0492003FDBF8 /* ViewController.m */,
+				189424801AFDE95E0013F9CC /* MMPlaceHolder.h */,
+				189424811AFDE95E0013F9CC /* MMPlaceHolder.m */,
+				189424831AFDEB780013F9CC /* UIView+Category.h */,
+				189424841AFDEB780013F9CC /* UIView+Category.m */,
 				18DCB61E1AFB05F1003FDBF8 /* Masonry */,
 				18DCB6021AFB0492003FDBF8 /* Main.storyboard */,
 				18DCB6051AFB0492003FDBF8 /* Images.xcassets */,
@@ -291,8 +301,10 @@
 				18DCB6381AFB05F1003FDBF8 /* MASCompositeConstraint.m in Sources */,
 				18DCB63E1AFB05F1003FDBF8 /* NSArray+MASAdditions.m in Sources */,
 				18DCB6011AFB0492003FDBF8 /* ViewController.m in Sources */,
+				189424821AFDE95E0013F9CC /* MMPlaceHolder.m in Sources */,
 				18DCB5FE1AFB0492003FDBF8 /* AppDelegate.m in Sources */,
 				18DCB63B1AFB05F1003FDBF8 /* MASLayoutConstraint.m in Sources */,
+				189424851AFDEB780013F9CC /* UIView+Category.m in Sources */,
 				18DCB5FB1AFB0492003FDBF8 /* main.m in Sources */,
 				18DCB6401AFB05F1003FDBF8 /* View+MASAdditions.m in Sources */,
 				18DCB63C1AFB05F1003FDBF8 /* MASViewAttribute.m in Sources */,
@@ -490,6 +502,7 @@
 				18DCB61A1AFB0492003FDBF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18DCB61B1AFB0492003FDBF8 /* Build configuration list for PBXNativeTarget "MasonryTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +511,7 @@
 				18DCB61D1AFB0492003FDBF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
